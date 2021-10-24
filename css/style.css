@@ -7,6 +7,10 @@ body {
     font-weight: bold;
 }
 
+.foot {
+    padding-top: 20px;
+}
+
 .navbar-brand {
     font-family: 'Playfair Display SC', serif;
     font-weight: 900;
