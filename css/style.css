@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(228, 224, 224);
+    background-color: rgb(250, 243, 243);
 }
 
 .font1 {
@@ -19,4 +19,61 @@ body {
 .carosel-item img {
     height: 60vh;
     position: relative;
+}
+
+.head_1 {
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+}
+
+.foot_1 {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card {
+    width: 12rem;
+    border-radius: 30px;
+    transition: transform .3s;
+    margin-left: 50px;
+}
+
+.card:hover {
+    transform: translateY(-14px);
+    transition: transform .3s;
+}
+
+.card-body {
+    border-end-start-radius: 30px;
+    border-end-end-radius: 30px;
+    height: 150px;
+}
+
+.prev a {
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    top: 60px;
+    right: 16px;
+    background-color: rgb(2, 2, 2);
+    height: 40px;
+    display: block;
+    text-align: center;
+    width: 190px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.card2 {
+    height: 193px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.card3 {
+    height: 193px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
 }
