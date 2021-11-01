@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 243, 243);
+    background-color: rgb(238, 237, 237);
 }
 
 .font1 {
@@ -35,7 +35,7 @@ body {
     width: 12rem;
     border-radius: 30px;
     transition: transform .3s;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 .card:hover {
@@ -76,4 +76,10 @@ body {
     height: 193px;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
+}
+
+.About {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 150px;
+    font-weight: bold;
 }
