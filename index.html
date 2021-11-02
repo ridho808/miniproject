@@ -13,6 +13,7 @@
     <script src="js/popper.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="asset/icon-L.png">
+
 </head>
 
 <body>
@@ -22,8 +23,8 @@
             <!-- header & navigation -->
             <nav class="nav navbar-expand-xl navbar-light py-4 text-black">
                 <a href="Index.html" class="navbar-brand">
-                    <header>
-                        <h1 class="font1">LIRA</h1>
+                    <header id="header" class="font1">
+                        <h1></h1>
                     </header>
                 </a>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,10 +33,10 @@
                 <div class="collapse navbar-collapse" id="toggleMobileMenu">
                     <ul class="navbar-nav ms-auto text-center">
                         <li>
-                            <a class="nav-link text-capitalize" href="#">Home</a>
+                            <a class="nav-link text-capitalize" href="#"></a>
                         </li>
                         <li>
-                            <a class="nav-link" href="AboutUs.html">About us</a>
+                            <a class="nav-link" href="AboutUs.html"></a>
                         </li>
                     </ul>
                 </div>
@@ -47,7 +48,7 @@
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carosel-item">
-                            <img src="asset/cas.jpg" class="img-thumbnail" style="border-radius: 30px;">
+                            <img src="asset/cas.jpg" class="img-thumbnail imj" style="border-radius: 30px;">
                         </div>
                     </div>
                 </div>
@@ -55,8 +56,7 @@
                     <h1>DISCOUNT 67%</h1>
                     <p>
                         CELESTIAL BLACK DIAMOND LIFTING AND FIRMING TREATMENT MASK
-                        <p>
-                            <button type="button" class="btn btn-dark btn-xl my-5 px-5">BUY</button>
+                        <button type="button" class="btn btn-dark btn-xl m-3 px-5">BUY</button>
                 </div>
             </div>
         </div>
@@ -207,8 +207,7 @@
                 <div class="row py-2">
                     <div class="col-xl-3 mx-3">
                         <h3 class="text-black d-block foot " style="font-family: 'Playfair Display SC', serif; ">LIRA</h3>
-                        <p class>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis veniam sapiente aspernatur saepe doloribus dolorum quos consequatur dolor ea! Dolor placeat voluptatibus repellat! Adipisci quasi, provident neque molestias ipsum
-                            quas.
+                        <p id="about">lor
                         </p>
                     </div>
                     <!-- breadcrumb -->
@@ -228,7 +227,7 @@
                         <div class="mb-3">
                             <label for="input81" class="form-label">Feedback</label>
                             <textarea class="form-control" id="input81" rows="3"></textarea>
-                            <button type="button" class="btn btn-outline-dark my-3" data-bs-toggle="modal" data-bs-target="#modelId">
+                            <button type="button" class="btn btn-outline-dark my-3" onclick="modalshow()">
                                 Submit
                             </button>
                         </div>
@@ -432,7 +431,7 @@
             </div>
         </div>
     </div>
-    <!-- Modal Alert -->
+    <!-- Modal Alert
     <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="dialog">
             <div class="modal-body">
@@ -446,7 +445,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
+    <script src="js/JsDom.js"></script>
 </body>
 
 </html>

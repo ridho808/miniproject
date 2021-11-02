@@ -46,17 +46,15 @@
         <div class="container-xl text-black">
             <div class="row my-5">
                 <div class="col-xl-12 my-3 text-center">
-                    <h1 class="About"> LIRA</h1>
+                    <h1 id="compn" class="About"></h1>
                 </div>
             </div>
         </div>
         <div class="container-xl text-black bg-white" style="border-radius: 40px;">
             <div class="row py-xl-5">
                 <span class="col-xl-6 col-lg-6 text-black text-end">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Corporis modi aliquam dolore eligendi, <br> laudantium veritatis quos quo <br> incidunt beatae nisi ipsa enim voluptatem <br> voluptate nostrum consectetur officia sed omnis quia?
                 </span>
                 <span class="col-xl-3 col-lg-3 text-start">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ea expedita voluptatum, quaerat praesentium dignissimos nisi molestiae eos. Corporis adipisci beatae maxime officiis placeat quo voluptates repudiandae necessitatibus dolorem. Vero.
                 </span>
                 <div class="offset-2 col-xl-5">
                     <img src="asset/cas.jpg" class="img-fluid w-50">
@@ -129,6 +127,19 @@
             </div>
         </div>
     </div>
+    <script>
+        const compn = document.getElementById("compn");
+        compn.innerHTML = "LIRA"
+        const span = document.getElementsByTagName("span")
+        span[1].innerHTML = `What is Python used for
+        What is Python used for?
+Python is a computer programming language often used to build websites and software, automate tasks, and conduct data analysis. Python is a general purpose
+language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems`;
+        span[2].innerHTML = `
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. C
+        orporis ea expedita voluptatum, quaerat praesentium dignissimos nisi molestiae . Corporis adipisci beatae maxime officiis placeat quo voluptates repudiandae necessitatibus dolorem. Vero.
+        `;
+    </script>
 </body>
 
 </html>
